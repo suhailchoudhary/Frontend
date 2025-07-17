@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+        <style>
+            
+          #outer{
+            height: 1315px;
+            width: 1500px;
+            /* margin:0 auto; */
+
+            /* border:1px solid rgb(255, 255, 255); */
+            /* border-radius: 20px 20px 0 0; */
+            /* background-color: orange; */
+          }
+
+          
+
+          #navbar{
+            height: 50px;
+            width: 1500px;
+            border-bottom: 1px solid white;
+            
+            background-color: orange;
+            padding: 5px 0px 5px 250px;
+             
+          }
+#slider {
+    height: 350px;
+    width: 1000px;
+    margin: 10px 250px 0 250px;
+
+   
+}
+
+          #parent{
+            width: 1000px;
+            height: 700px;
+            margin: 5px 250px 0 250px;
+            color: white;
+            
+            /* border-bottom: 1px solid white; */
+
+          }
+          
+          #l{
+            width: 700px;
+            height: 700px;
+            float: left;
+            background-color: orange;
+            border-radius: 0 0 0 20px;
+          }
+
+            #la{
+                width: 700px;
+                height: 350px;
+                background-color: lightblue;
+                
+            }
+            #lb{
+                width: 700px;
+                height: 350px;
+                background-color: lightgreen;
+                border-radius: 0 0 0 20px;
+            }
+
+          #r{
+            width: 300px;
+            height: 700px;
+            float: right;
+            background-color: gray;
+            border-radius: 0 0 20px 0;
+          }
+          #footer{
+            height: 315px;
+            width: 1000px;
+            background-color: slategray;
+            margin: 10px 250px 0 250px;
+            border-radius: 20px;
+          }
+          .one{
+            height: 300px;
+            width: 315px;
+            /* border: 1px solid; */
+            float:left;
+            margin: 0px 0 0 12.3px;
+
+          }
+        </style>
+</head>
+<body>
+        <div id="outer">
+            <div id="navbar">
+                <pre>HOME   SUPPORT   ABOUT US   BLOG    CONTACT US</pre>
+                
+
+            </div>
+            <div id="slider">
+                 <img src="bugatti.webp" style="width: 100%; height: 350px;" />
+            </div>
+            <div id="parent">
+                <div id="l">
+                    <div id="la"></div>
+                    <div id="lb"></div>
+                </div>
+                <div id="r"></div>
+            </div>
+            <div id="footer">
+                <div class="one"><h1>Image Gallery</h1></div>
+                <div class="one"><h1>About</h1></div>
+                <div class="one"><h1>Contact</h1></div>
+                
+            </div>
+        </div>
+</body>
+</html>
